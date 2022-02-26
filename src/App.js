@@ -13,7 +13,7 @@ const App = () => {
   const [score, setScore] = useState(0)
 
   const getTrivia = () => {
-    axios.get('http://jservice.io/api/random').then((response) => {
+    axios.get('https://jservice.io/api/random').then((response) => {
       setTrivia(response.data[0].question)
       setValue(response.data[0].value)
       setCategory(response.data[0].category.title)
