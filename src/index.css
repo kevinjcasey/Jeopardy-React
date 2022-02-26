@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'OPTIKorinna-Agency';
+  src:url('/public/OPTIKorinna-Agency.ttf.woff') format('woff'),
+      url('/public/OPTIKorinna-Agency.ttf.svg#OPTIKorinna-Agency') format('svg'),
+      url('/public/OPTIKorinna-Agency.ttf.eot'),
+      url('/public/OPTIKorinna-Agency.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  text-align: center;
+  background-color: #00008b;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.logo {
+  color: #ffcc00;
+  font-family: 'OPTIKorinna-Agency';
+  font-size: 3rem;
+  text-shadow: 2px 2px #000000;
+}
+
+.increase {
+  background-color: #4caf50;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 1rem;
+  color: white;
+  font-family: 'OPTIKorinna-Agency';
+  cursor: pointer;
+}
+
+.increase:hover {
+  background-color: darkgreen;
+}
+
+.decrease {
+  background-color: rgb(175, 0, 0);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 1rem;
+  color: white;
+  font-family: 'OPTIKorinna-Agency';
+  cursor: pointer;
+}
+
+.decrease:hover {
+  background-color: darkred;
+}
+
+.reset {
+  background-color: #ffcc00;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 1rem;
+  color: black;
+  font-family: 'OPTIKorinna-Agency';
+  cursor: pointer;
+}
+
+.reset:hover {
+  background-color: darkgoldenrod;
+  color: white;
+}
+
+.next {
+  background-color: lightgrey;
+  border: 1px solid #ffcc00;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  color: black;
+  font-family: 'OPTIKorinna-Agency';
+  cursor: pointer;
+}
+
+.next:hover {
+  background-color: gray;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+h2, h3 {
+  color: white;
+  font-family: 'OPTIKorinna-Agency';
+  text-transform: uppercase;
+  text-shadow: 2px 2px #000000;
+  font-size: 25px;
+}
+
+h4 {
+  color: #ffcc00;
+  font-family: 'OPTIKorinna-Agency';
+  font-size: 20px;
+}
+
+hr {
+  border: 2px solid gray;
+  border-radius: 10px;
+  width: 90%;
+}
