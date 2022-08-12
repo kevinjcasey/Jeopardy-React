@@ -1,10 +1,10 @@
-# Jeopardy! using React
+# Jeopardy! (using React)
 
 ![Project Image](https://i.imgur.com/WhnmIWW.jpg)
 
 ## Description 
 
-My first single-page app using the jservice.io API (see below). Notice the randomly generator domain name ;)
+My first single-page app using the jservice.io API (see Resources). Notice the randomly generator domain name ;)
 
 ## Technologies
 - React
